@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 st.set_page_config(
-	page_title = "Klasifikasi Lemon",
+	page_title = "Klasifikasi_Lemon",
 	page_icon = ":lemon:"
 )
 model =  joblib.load("model_klasifikasi_lemon.joblib")
@@ -29,3 +29,4 @@ if st.button("Prediksi", type="primary"):
 st.divider()
 
 st.caption("Dibuat dengan :lemon: oleh **Saskia**")
+
