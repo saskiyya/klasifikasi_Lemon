@@ -27,4 +27,5 @@ if st.button("Prediksi", type="primary"):
 	st.balloons()
 
 st.divider()
-st.caption("Dibuat dengan :: oleh **Saskia**")
+
+st.caption("Dibuat dengan :lemon: oleh **Saskia**")
